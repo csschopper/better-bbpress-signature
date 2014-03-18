@@ -1,0 +1,40 @@
+.bbPress-signature .clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+.bbPress-signature a.button {
+    background: transparent url('../images/bg_button_a.gif') no-repeat scroll top right;
+    color: #444;
+    display: block;
+    float: left;
+    font: normal 12px arial, sans-serif;
+    height: 24px;
+    margin-right: 6px;
+    padding-right: 18px; /* sliding doors padding */
+    text-decoration: none;
+}
+
+.bbPress-signature a.button span {
+    background: transparent url('../images/bg_button_span.gif') no-repeat;
+    display: block;
+    line-height: 14px;
+    padding: 5px 0 5px 18px;
+}
+.bbPress-signature a.button:hover {
+    background-position: bottom right;
+    color: #000;
+    outline: none; /* hide dotted outline in Firefox */
+}
+
+.bbPress-signature a.button:hover span {
+    background-position: bottom left;
+    padding: 6px 0 4px 18px; /* push text down 1px */
+}
+
+#b3p_forum_signature #b3p_signature { width:100%; margin:15px 0}
+.bbPress-signature a.button#add_signature {float:right}
+.bbPress-signature {min-height:25px; margin 20px 0}
+.bbPress-signature p{width:100%}
+.bbPress-signature .fr{float:right}
+.bbPress-signature .fl{float:left}
